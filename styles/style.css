@@ -10,14 +10,27 @@
 .display-flex{
     display: flex;
 }
+.btn{
+    background-color: #E6533C;
+    color: #FFFFFF;
+    border-radius: 42px;
+    padding: 12px 20px;
+    border: none;
+    font-size: 1rem;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
 :root{
     --color: #E6533C;
-    --background-color: #303030;
+    --background-color: #000000;
     --width: 85%;
 }
 /* Header section  */
 header{
-    background-color: var(--background-color);
+    background-color: #222222;
+    
     width: 100%;
     height: 600px;
 }
@@ -34,6 +47,16 @@ nav{
     font-size: 2rem;
     font-weight: 900;
 }
+.menu{
+    border: 1px solid gray;
+    border-radius: 39px;
+    padding: 10px 0px 10px 5px;
+}
+.menu .home{
+    background-color: var(--color);
+    padding: 7px 13px;
+    border-radius: 46px;
+}
 .menu li{
     list-style: none;
 }
@@ -41,4 +64,97 @@ nav{
     text-decoration: none;
     margin-right: 40px;
     color: #FFFFFF;
+    font-size: 1.1rem;
+}
+.banner{
+    width: var(--width);
+    height: 450px;
+    position: relative;
+    top: 100px;
+    margin: auto;
+    justify-content: space-between;
+}
+.one-time-button{
+    padding: 12px 20px;
+    background-color: #303030;
+    color: #FFFFFF;
+    border: 1px solid white;
+    border-radius: 42px;
+    font-size: 1rem;
+}
+.button-container{
+    display: flex;
+    gap: 12px;
+}
+.banner-writing{
+    color: white;
+    max-width: 40%;
+}
+.banner-title{
+    font-size: 4.2rem;
+}
+.banner-description{
+    font-size: 14px;
+    margin: 20px 0;
+    font-weight: 200;
+}
+.banner-image{
+    width: 35%;
+    height: 450px;
+}
+.ball{
+    border: 2px solid red;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+}
+.magic-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.185);
+    padding: 20px;
+    position: relative;
+    bottom: 160px;
+    right: 120px;
+    /* filter: brightness(100%); */
+    border-radius: 10px;
+    width: 180px;
+    color: white;
+    backdrop-filter: blur(1px);
+}
+.magic-container div p{
+    font-size: 14px;
+    font-weight: 200;
+}
+.magic-file{
+    background-color: rgba(255, 255, 255, 0.185);
+    padding: 20px;
+    position: relative;
+    bottom: 400px;
+    left: 250px;
+    /* filter: brightness(100%); */
+    border-radius: 10px;
+    width: 160px;
+    color: white;
+}
+.magic-file h4{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.magic-file p{
+    font-size: 14px;
+    font-weight: 200;
+}
+
+@media screen and (max-width:576px) {
+    /* .menu{
+        display: none;
+    }
+    .banner{
+        flex-direction: column;
+        height: auto;
+    } */
+    
 }
