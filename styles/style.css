@@ -226,8 +226,40 @@ header{
     font-weight: 400;
     font-size: 14px;
 }
-
-
+/* Run section  */
+.run{
+    background-color: #222222;
+    height: 330px;
+    margin: 100px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.run-writing{
+    color: white;
+    width: 400px;
+    padding: 35px 0px 0px 30px;
+}
+.run-writing h2{
+    font-size: 3rem;
+    margin-bottom: 16px;
+}
+.run-writing p{
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.run-img{
+    width: 360px;
+    height: 280px;
+    background-image: url(../images/run.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    right: 30px;
+}
 
 
 
@@ -335,4 +367,37 @@ header{
     section{
         top: 5px;
     }
+    /* Run section  */
+    .run{
+        flex-direction: column;
+        justify-content: center;
+        height: 630px;
+        /* margin: 50px 40px 0px; */
+        display: flex;
+        width: 350px;
+        padding-right: 20px;
+    }
+    .run-writing{
+        width: 350px;
+        padding-top: 0px;
+        padding-left: 30px;
+    }
+    .run-writing h2{
+        font-size: 2rem;
+        margin-bottom: 16px;
+    }
+    .run-writing p{
+        font-size: 12px;
+        width: 320px;
+    }
+    .run-button{
+        width: 310px;
+        margin: auto;
+    }
+    .run-img{
+        width: 330px;
+        left: 19px;
+        bottom: 0px;
+    }
+    
 } 
