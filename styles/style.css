@@ -6,6 +6,15 @@
 .inter{
     font-family: "Inter", sans-serif;
 }
+@font-face {
+    font-family: 'Miama';
+    src: url(../Miama.ttf);
+}
+.miama{
+    font-family: 'Miama', sans-serif;
+    font-size: 7rem;
+    font-weight: 300;
+}
 /* shared style  */
 .display-flex{
     display: flex;
@@ -30,8 +39,7 @@ img{
 /* Header section  */
 header{
     background-color: #222222;
-    
-    width: 100%;
+    max-width: 100%;
     height: 600px;
 }
 nav{
@@ -92,6 +100,7 @@ nav{
 }
 .banner-title{
     font-size: 4.2rem;
+    line-height: 70px;
 }
 .banner-description{
     font-size: 14px;
@@ -149,12 +158,44 @@ nav{
 }
 
 @media screen and (max-width:576px) {
-    /* .menu{
+    header{
+        height: 960px;
+    }
+    .banner-title{
+        font-size: 30px;
+        font-weight: 900;
+        width: 350px;
+        line-height: 60px;
+    }
+    .banner-description{
+        width: 350px;
+    }
+    .button-container{
+        width: 400px;
+        margin-left: 15px;
+    }
+    .one-time-button{
+        margin-left: 30px;
+    }
+    .menu{
         display: none;
     }
     .banner{
         flex-direction: column;
         height: auto;
-    } */
-    
+    }
+    .banner-image img{
+        width: 350px;
+        margin-top: 50px;
+    }
+    .magic-container{
+        bottom: 230px;
+        left: 5px;
+    }
+    .magic-file{
+        bottom: 500px;
+        left: 200px;
+        padding: 10px;
+        width: 135px;
+    }
 }
