@@ -357,7 +357,19 @@ th,td{
     gap: 10px;
     margin-bottom: 10px;
 }
+::placeholder{
+    color: white;
+}
 .under-work{
+    background-color: #5f5f5f;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    opacity: 0.5;
+}
+.under-task{
     background-color: #5f5f5f;
     padding: 10px 20px;
     border: none;
@@ -603,7 +615,6 @@ hr{
     /* Habit section  */
     .habit{
         height: auto;
-        /* border: 1px solid rebeccapurple; */
         margin: auto;
         color: white;
     }
@@ -673,6 +684,41 @@ hr{
         width: 330px;
         left: 19px;
         bottom: 0px;
+    }
+    /* BMI SECTION  */
+    .bmi-content{
+        margin-left: 0;
+        margin-top: 0;
+        width: 370px;
+    }
+    .bmi-content h2{
+        font-size: 2.4rem;
+    }
+    .calculator{
+        display: flex;
+        flex-direction: column;
+    }
+    .outer-side{
+        height: 800px;
+    }
+    .form-part{
+        width: 350px;
+        margin-top: 30px;
+    }
+    .under-work{
+        width: 115px;
+        padding: 15px 30px;
+    }
+    #mastermind{
+        display: grid;
+        grid-template-columns: 175px 175px;
+    }
+    #select{
+        width: 360px;
+    }
+    .extra-btn{
+        padding: 25px 50px;
+        font-size: 20px;
     }
     /* Team section  */
     .writing h3{
