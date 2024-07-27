@@ -2,6 +2,7 @@
 
 *{
     margin: 0;
+    outline: 0;
 }
 .inter{
     font-family: "Inter", sans-serif;
@@ -115,6 +116,9 @@ header{
     max-width: 40%;
     margin-top: 30px;
 }
+.banner-writing p{
+    opacity: 0.7;
+}
 .banner-title{
     font-size: 4.2rem;
     line-height: 70px;
@@ -197,7 +201,8 @@ header{
 .writing-part p{
     font-size: 0.7rem;
     text-align: center;
-    font-weight: 200;
+    font-weight: 400;
+    opacity: 0.7;
 }
 .box-part{
     display: flex;
@@ -225,6 +230,7 @@ header{
 .box p{
     font-weight: 400;
     font-size: 14px;
+    opacity: 0.7;
 }
 /* Run section  */
 .run{
@@ -248,6 +254,7 @@ header{
     font-size: 12px;
     font-weight: 400;
     margin-bottom: 35px;
+    opacity: 0.7;
 }
 .run-img{
     width: 360px;
@@ -260,9 +267,277 @@ header{
     top: 30px;
     right: 30px;
 }
-
-
-
+/* BMI SECTION  */
+.bmi{
+    color: white;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+.bmi-content{
+    width: 70%;
+    height: 130px;
+    margin: 0 auto 30px;
+}
+.bmi-content h2{
+    padding-top: 0px;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.bmi-content p{
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+.outer-side{
+    height: 400px;
+    background-color: #303030;
+    top: 55px;
+    position: relative;
+    /* border: 1px solid red; */
+    color: white;
+}
+.calculator{
+    width: 85%;
+    margin: auto;
+    /* border: 2px solid steelblue; */
+    display: flex;
+    justify-content: space-between;
+}
+.calculator h3{
+    margin: 30px 0 40px;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.table-part{
+    width: 400px;
+    /* border: 1px solid red; */
+}
+table{
+    border-collapse: collapse;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+td{
+    opacity: 0.7;
+}
+th,td{
+    border: 2px solid #696969;
+    padding: 10px 20px;
+    margin-left: 0px;
+}
+.thh{
+    text-align: start;
+    /* position: relative;
+    right: 15px; */
+}
+.form{
+    margin-top: 30px;
+}
+.form-part{
+    width: 600px;
+    /* border: 1px solid red; */
+}
+.form-part h3{
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+.form-part p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    opacity: 0.5;
+    line-height: 20px;
+}
+.form div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.under-work{
+    background-color: #5f5f5f;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    opacity: 0.5;
+}
+#select{
+    width: 100%;
+}
+.form button{
+    margin-top: 30px;
+}
+/* team section  */
+.team{
+    color: white;
+    width: var(--width);
+    /* border: 1px solid red; */
+    margin: 100px auto;
+    height: 660px;
+}
+.writing{
+    width: 70%;
+    margin: 0px auto 20px;
+    text-align: center;
+}
+.writing h3{
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.writing p{
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.all-trainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: #303030;
+    width: 95%;
+    border-radius: 10px;
+    /* border: 1px solid tomato; */
+    margin: 50px auto 0;
+    height: 500px;
+    padding: 10px;
+}
+.card{
+    width: 350px;
+    height: 240px;
+    border-radius: 10px;
+}
+.card h4, .trainer {
+    position: relative;
+    top: 155px;
+    left: 20px;
+}
+.card h4{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.card .trainer{
+    font-size: 14px;
+    font-weight: 200;
+}
+.card-1{
+    background-image: url(../images/trainer1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card-2{
+    background-image: url(../images/trainer2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card-3{
+    background-image: url(../images/trainer3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card-4{
+    background-image: url(../images/trainer4.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card-5{
+    background-image: url(../images/trainer5.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card-6{
+    background-image: url(../images/trainer6.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* Footer section  */
+footer{
+    background-color: #303030;
+    height: 400px;
+    color: white;
+}
+.fitness{
+    width: var(--width);
+    height: 350px;
+    /* border: 1px solid red; */
+    margin: 60px auto 0;
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+}
+.col-1{
+    width: 550px;
+}
+.col-1 h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.col-1 p{
+    font-size: 14px;
+    opacity: 0.7;
+    margin-top: 20px;
+}
+.two-col{
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+.div-1 h3{
+    margin-bottom: 20px;
+}
+.div-1 li{
+    list-style-type: none;
+}
+.div-1 li a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+    position: relative;
+    /* border: 1px solid tomato; */
+    line-height: 30px;
+}
+.div-1 ul{
+    /* border: 1px solid tomato; */
+    padding-left: 0;
+}
+.div-2 ul{
+    /* border: 1px solid tomato; */
+    padding-left: 0;
+}
+.div-2 h3{
+    margin-bottom: 20px;
+}
+.div-2 li{
+    list-style-type: none;
+}
+.div-2 li a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+    line-height: 30px;
+}
+hr{
+    width: var(--width);
+    margin: auto;
+    position: relative;
+    bottom: 30px;
+}
+.all-right-reserved{
+    text-align: center;
+}
 
 
 
@@ -399,5 +674,62 @@ header{
         left: 19px;
         bottom: 0px;
     }
-    
+    /* Team section  */
+    .writing h3{
+        font-size: 1.9rem;
+    }
+    .all-trainer{
+        grid-template-columns: repeat(1, 1fr);
+        padding-right: 2px;
+        height: auto;
+    }
+    .card-1, .card-4{
+        display: none;
+    }
+    .card{
+        width: 300px;
+        height: 230px;
+        margin-left: 17px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .team{
+        height: auto;
+    }
+    /* footer section  */
+    footer{
+        height: 700px;
+    }
+    .footer-right{
+        position: relative;
+        top: 300px;
+    }
+    .fitness{
+        flex-direction: column;
+    }
+    .col-1{
+        width: 340px;
+        margin-top: 30px;
+    }
+    .two-col{
+        flex-direction: column;
+        width: 350px;
+        margin-top: 30px;
+        line-height: 35px;
+    }
+    .div-1 li{
+        line-height: 20px;
+    }
+    .div-1{
+        margin-bottom: 25px;
+    }
+    .div-2 li{
+        line-height: 20px;
+    }
+    .div-1 h3{
+        font-size: 1.8rem;
+    }
+    .div-2 h3{
+        font-size: 1.8rem;
+    }
 } 
