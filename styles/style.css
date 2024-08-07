@@ -614,6 +614,9 @@ hr{
     .menu{
         display: none;
     }
+    body{
+        
+    }
     .bar-icon{
         display: contents;
         color: white;
@@ -633,7 +636,7 @@ hr{
         width: 350px;
     }
     .button-container{
-        width: 400px;
+        width: 370px;
         margin-left: 15px;
     }
     .one-time-button{
@@ -787,6 +790,12 @@ hr{
     }
     .outer-side{
         height: 800px;
+    }
+    .table-part{
+        width: 378px;
+    }
+    .table-part h3{
+        width: 378px;
     }
     .form-part{
         width: 350px;
